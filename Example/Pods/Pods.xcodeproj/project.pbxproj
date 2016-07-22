@@ -10,12 +10,12 @@
 		055BF6EB9094FCFC08E154103C30AF72 /* RedText-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B2B69C96124D587EED6E046E7857127 /* RedText-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		06C9CA79963367E64932E3D27F26DE7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		19BA7E78CB8D6401EFD572A66273E691 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		29CD79511D9858391ECFE5F257C119FE /* RedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A24BE18B2ABF4428DE4AD9C120C61E /* RedText.swift */; };
 		3BBA682CC3C2C1D9008F2461C109D8EB /* Pods-RedText_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA41FD2283C3C91E50CED1F2900B1267 /* Pods-RedText_Tests-dummy.m */; };
 		4C7E485FCA0DABC6B0664BC1897DE697 /* Pods-RedText_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 239354BA0422B50FA7C1953E1EFA88ED /* Pods-RedText_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4FC1837A6D98CC86B063CA0D5EA62C41 /* Pods-RedText_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 797C7D9142FAF2FD1226538E107D1A52 /* Pods-RedText_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		715E2817A773B67604DDDD95B1901353 /* Pods-RedText_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CCD2D7F969D05A7AC9A6CFB7BFE126 /* Pods-RedText_Example-dummy.m */; };
-		73DA1B967C7FB328471123110A868888 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AF8BEB82A0350E9A9B485AFB7C6B8F /* ReplaceMe.swift */; };
-		9489EA95657623252111DDED16ED4382 /* RedText-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4DA8B3DF5AFC36036754A5AB6013A9 /* RedText-dummy.m */; };
+		83286962E1F0E414E6A6F16C601D900C /* RedText-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4DA8B3DF5AFC36036754A5AB6013A9 /* RedText-dummy.m */; };
 		A98D306DE1CD1127304A888721E0DFF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,7 +36,6 @@
 		239354BA0422B50FA7C1953E1EFA88ED /* Pods-RedText_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RedText_Example-umbrella.h"; sourceTree = "<group>"; };
 		2B2B69C96124D587EED6E046E7857127 /* RedText-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RedText-umbrella.h"; sourceTree = "<group>"; };
 		380089E71B683175C3B0935957B88F13 /* RedText-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RedText-prefix.pch"; sourceTree = "<group>"; };
-		43AF8BEB82A0350E9A9B485AFB7C6B8F /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		4C52131DC16C730AB62B934A7DC236A5 /* Pods-RedText_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RedText_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5288A8366DE6654DAE87A3B6A2FB9038 /* RedText.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RedText.xcconfig; sourceTree = "<group>"; };
 		59DF8D7179C7D6583CA178E0D7682F1E /* Pods-RedText_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RedText_Tests.modulemap"; sourceTree = "<group>"; };
@@ -44,6 +43,7 @@
 		7750B50066C60F545FF49881885EAAC9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		797C7D9142FAF2FD1226538E107D1A52 /* Pods-RedText_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RedText_Tests-umbrella.h"; sourceTree = "<group>"; };
 		7C02F562F506D1789DB85CAF7C57FA5E /* Pods-RedText_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RedText_Example.modulemap"; sourceTree = "<group>"; };
+		82A24BE18B2ABF4428DE4AD9C120C61E /* RedText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RedText.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9A8076390AD36D75F9397519F5F0A48A /* RedText.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RedText.modulemap; sourceTree = "<group>"; };
 		9E4F042B3F193E518CCC13ABD1DD4CDC /* Pods-RedText_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedText_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -126,10 +126,10 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		41947BBB014DBAD6C3166C4F0C743524 /* Classes */ = {
+		517AB6296D817F5E6EF9138B56C77BCD /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				43AF8BEB82A0350E9A9B485AFB7C6B8F /* ReplaceMe.swift */,
+				82A24BE18B2ABF4428DE4AD9C120C61E /* RedText.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -175,7 +175,7 @@
 		CBA25FB722AB83B2BBDAFE4B6954047D /* RedText */ = {
 			isa = PBXGroup;
 			children = (
-				41947BBB014DBAD6C3166C4F0C743524 /* Classes */,
+				517AB6296D817F5E6EF9138B56C77BCD /* Classes */,
 			);
 			path = RedText;
 			sourceTree = "<group>";
@@ -256,7 +256,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7AA00D703686C39DF3685473BEB0B09D /* Build configuration list for PBXNativeTarget "RedText" */;
 			buildPhases = (
-				9177D58CB382E4A12E7AE8158D92C154 /* Sources */,
+				25002B7910C9191D8AD693516694470C /* Sources */,
 				983168AEEB02E5885D7A0D1D561BF23F /* Frameworks */,
 				596B5B5528A2CA6C20FEF4114051884D /* Headers */,
 			);
@@ -333,20 +333,20 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		25002B7910C9191D8AD693516694470C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83286962E1F0E414E6A6F16C601D900C /* RedText-dummy.m in Sources */,
+				29CD79511D9858391ECFE5F257C119FE /* RedText.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6784050520CE99F94B88DA3904194109 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3BBA682CC3C2C1D9008F2461C109D8EB /* Pods-RedText_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9177D58CB382E4A12E7AE8158D92C154 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9489EA95657623252111DDED16ED4382 /* RedText-dummy.m in Sources */,
-				73DA1B967C7FB328471123110A868888 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

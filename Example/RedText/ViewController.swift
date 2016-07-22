@@ -7,18 +7,24 @@
 //
 
 import UIKit
+import RedText
 
 class ViewController: UIViewController {
 
+    var isBlinking = false
+    let blinkingLabel = RedTextLabel(frame: CGRectMake(10, 20, 200, 30))
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        // Setup the BlinkingLabel
+        blinkingLabel.text = "I blink!"
+        blinkingLabel.font = UIFont.systemFontOfSize(20)
+        blinkingLabel.redTextColor()
+        view.addSubview(blinkingLabel)
+        
+        
+       
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 }
 

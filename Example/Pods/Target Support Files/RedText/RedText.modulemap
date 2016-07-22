@@ -1,0 +1,6 @@
+framework module RedText {
+  umbrella header "RedText-umbrella.h"
+
+  export *
+  module * { export * }
+}

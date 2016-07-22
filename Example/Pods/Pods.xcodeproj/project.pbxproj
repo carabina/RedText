@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		055BF6EB9094FCFC08E154103C30AF72 /* RedText-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B2B69C96124D587EED6E046E7857127 /* RedText-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06C9CA79963367E64932E3D27F26DE7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		19BA7E78CB8D6401EFD572A66273E691 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		3BBA682CC3C2C1D9008F2461C109D8EB /* Pods-RedText_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA41FD2283C3C91E50CED1F2900B1267 /* Pods-RedText_Tests-dummy.m */; };
+		4C7E485FCA0DABC6B0664BC1897DE697 /* Pods-RedText_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 239354BA0422B50FA7C1953E1EFA88ED /* Pods-RedText_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FC1837A6D98CC86B063CA0D5EA62C41 /* Pods-RedText_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 797C7D9142FAF2FD1226538E107D1A52 /* Pods-RedText_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		715E2817A773B67604DDDD95B1901353 /* Pods-RedText_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CCD2D7F969D05A7AC9A6CFB7BFE126 /* Pods-RedText_Example-dummy.m */; };
+		73DA1B967C7FB328471123110A868888 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AF8BEB82A0350E9A9B485AFB7C6B8F /* ReplaceMe.swift */; };
+		9489EA95657623252111DDED16ED4382 /* RedText-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4DA8B3DF5AFC36036754A5AB6013A9 /* RedText-dummy.m */; };
+		A98D306DE1CD1127304A888721E0DFF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA867E0E0432AC72CBD371D21C6C367B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08A4BFFF02E5246E4EF38C5FE1A25D86;
+			remoteInfo = RedText;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03A594F3DBDB50AFFBCA81F180CB45D3 /* Pods-RedText_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RedText_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		12A6EB0E7EB6D07158A12A0458BED86E /* Pods-RedText_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedText_Example-frameworks.sh"; sourceTree = "<group>"; };
+		16CCD2D7F969D05A7AC9A6CFB7BFE126 /* Pods-RedText_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RedText_Example-dummy.m"; sourceTree = "<group>"; };
+		239354BA0422B50FA7C1953E1EFA88ED /* Pods-RedText_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RedText_Example-umbrella.h"; sourceTree = "<group>"; };
+		2B2B69C96124D587EED6E046E7857127 /* RedText-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RedText-umbrella.h"; sourceTree = "<group>"; };
+		380089E71B683175C3B0935957B88F13 /* RedText-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RedText-prefix.pch"; sourceTree = "<group>"; };
+		43AF8BEB82A0350E9A9B485AFB7C6B8F /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		4C52131DC16C730AB62B934A7DC236A5 /* Pods-RedText_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RedText_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5288A8366DE6654DAE87A3B6A2FB9038 /* RedText.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RedText.xcconfig; sourceTree = "<group>"; };
+		59DF8D7179C7D6583CA178E0D7682F1E /* Pods-RedText_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RedText_Tests.modulemap"; sourceTree = "<group>"; };
+		732A432E6D3BA2D8B1B88C004A31D630 /* Pods-RedText_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedText_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		7750B50066C60F545FF49881885EAAC9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		797C7D9142FAF2FD1226538E107D1A52 /* Pods-RedText_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RedText_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7C02F562F506D1789DB85CAF7C57FA5E /* Pods-RedText_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RedText_Example.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A8076390AD36D75F9397519F5F0A48A /* RedText.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RedText.modulemap; sourceTree = "<group>"; };
+		9E4F042B3F193E518CCC13ABD1DD4CDC /* Pods-RedText_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedText_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A2B13ABF839EAEAE6EFEADDD8A89D925 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4819822C93CDA63362FDC1021AAAC9A /* Pods-RedText_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedText_Example-resources.sh"; sourceTree = "<group>"; };
+		A7FA3A05B493D7543422317CE3BF3A12 /* Pods-RedText_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedText_Tests-resources.sh"; sourceTree = "<group>"; };
+		AB20DCAD8CD8DDF06BE943257DDBD1DC /* Pods-RedText_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RedText_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AEA1F146EBE354935D8E8048ECA8820D /* Pods-RedText_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RedText_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B2D300ABB9D5A846FBAE635E76403220 /* RedText.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RedText.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B358FA8D06F7A4B77E85881CFA90D81F /* Pods-RedText_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedText_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA4DA8B3DF5AFC36036754A5AB6013A9 /* RedText-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RedText-dummy.m"; sourceTree = "<group>"; };
+		CAAEEC5E5884BD4C350C1D9B6848EB80 /* Pods_RedText_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedText_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB1696CFDBC4CB461547482426EDA2DF /* Pods-RedText_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedText_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CE320988D02C1CE5A4A4B550ED46B7DF /* Pods-RedText_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedText_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DA41FD2283C3C91E50CED1F2900B1267 /* Pods-RedText_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RedText_Tests-dummy.m"; sourceTree = "<group>"; };
+		DAB020E900A547A559DE39643CE1CF07 /* Pods_RedText_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RedText_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3554C6C2C5B9B918E89B32E0D6ABC30 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		261DA978E7002F4E3A4FF581DA32D3D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A98D306DE1CD1127304A888721E0DFF9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983168AEEB02E5885D7A0D1D561BF23F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06C9CA79963367E64932E3D27F26DE7A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF919770EFAF38BC991B96644BD486CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19BA7E78CB8D6401EFD572A66273E691 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28B3BEBB50D4265A0520A6468D323402 /* Pods-RedText_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A2B13ABF839EAEAE6EFEADDD8A89D925 /* Info.plist */,
+				59DF8D7179C7D6583CA178E0D7682F1E /* Pods-RedText_Tests.modulemap */,
+				AB20DCAD8CD8DDF06BE943257DDBD1DC /* Pods-RedText_Tests-acknowledgements.markdown */,
+				03A594F3DBDB50AFFBCA81F180CB45D3 /* Pods-RedText_Tests-acknowledgements.plist */,
+				DA41FD2283C3C91E50CED1F2900B1267 /* Pods-RedText_Tests-dummy.m */,
+				732A432E6D3BA2D8B1B88C004A31D630 /* Pods-RedText_Tests-frameworks.sh */,
+				A7FA3A05B493D7543422317CE3BF3A12 /* Pods-RedText_Tests-resources.sh */,
+				797C7D9142FAF2FD1226538E107D1A52 /* Pods-RedText_Tests-umbrella.h */,
+				B358FA8D06F7A4B77E85881CFA90D81F /* Pods-RedText_Tests.debug.xcconfig */,
+				CB1696CFDBC4CB461547482426EDA2DF /* Pods-RedText_Tests.release.xcconfig */,
+			);
+			name = "Pods-RedText_Tests";
+			path = "Target Support Files/Pods-RedText_Tests";
+			sourceTree = "<group>";
+		};
+		2A6D0CE4EC1CA6D8AB52E17D37FAA443 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D545304181DE6AAF50E47FB24C29D4B6 /* RedText */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		41947BBB014DBAD6C3166C4F0C743524 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				43AF8BEB82A0350E9A9B485AFB7C6B8F /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				2A6D0CE4EC1CA6D8AB52E17D37FAA443 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8F96A84C0C622D5BD30BE1619AEAF1CA /* Products */,
+				94B64AFB14CD3FEADFB7E286C5505443 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8F96A84C0C622D5BD30BE1619AEAF1CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAB020E900A547A559DE39643CE1CF07 /* Pods_RedText_Example.framework */,
+				CAAEEC5E5884BD4C350C1D9B6848EB80 /* Pods_RedText_Tests.framework */,
+				B2D300ABB9D5A846FBAE635E76403220 /* RedText.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94B64AFB14CD3FEADFB7E286C5505443 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEC269F8DB922EDB7DA02C8887C1ED4B /* Pods-RedText_Example */,
+				28B3BEBB50D4265A0520A6468D323402 /* Pods-RedText_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBA25FB722AB83B2BBDAFE4B6954047D /* RedText */ = {
+			isa = PBXGroup;
+			children = (
+				41947BBB014DBAD6C3166C4F0C743524 /* Classes */,
+			);
+			path = RedText;
+			sourceTree = "<group>";
+		};
+		D545304181DE6AAF50E47FB24C29D4B6 /* RedText */ = {
+			isa = PBXGroup;
+			children = (
+				CBA25FB722AB83B2BBDAFE4B6954047D /* RedText */,
+				DAF069F7DA6A229E7AD2129C69EC6CB6 /* Support Files */,
+			);
+			name = RedText;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		DAF069F7DA6A229E7AD2129C69EC6CB6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3554C6C2C5B9B918E89B32E0D6ABC30 /* Info.plist */,
+				9A8076390AD36D75F9397519F5F0A48A /* RedText.modulemap */,
+				5288A8366DE6654DAE87A3B6A2FB9038 /* RedText.xcconfig */,
+				CA4DA8B3DF5AFC36036754A5AB6013A9 /* RedText-dummy.m */,
+				380089E71B683175C3B0935957B88F13 /* RedText-prefix.pch */,
+				2B2B69C96124D587EED6E046E7857127 /* RedText-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RedText";
+			sourceTree = "<group>";
+		};
+		FEC269F8DB922EDB7DA02C8887C1ED4B /* Pods-RedText_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7750B50066C60F545FF49881885EAAC9 /* Info.plist */,
+				7C02F562F506D1789DB85CAF7C57FA5E /* Pods-RedText_Example.modulemap */,
+				AEA1F146EBE354935D8E8048ECA8820D /* Pods-RedText_Example-acknowledgements.markdown */,
+				4C52131DC16C730AB62B934A7DC236A5 /* Pods-RedText_Example-acknowledgements.plist */,
+				16CCD2D7F969D05A7AC9A6CFB7BFE126 /* Pods-RedText_Example-dummy.m */,
+				12A6EB0E7EB6D07158A12A0458BED86E /* Pods-RedText_Example-frameworks.sh */,
+				A4819822C93CDA63362FDC1021AAAC9A /* Pods-RedText_Example-resources.sh */,
+				239354BA0422B50FA7C1953E1EFA88ED /* Pods-RedText_Example-umbrella.h */,
+				9E4F042B3F193E518CCC13ABD1DD4CDC /* Pods-RedText_Example.debug.xcconfig */,
+				CE320988D02C1CE5A4A4B550ED46B7DF /* Pods-RedText_Example.release.xcconfig */,
+			);
+			name = "Pods-RedText_Example";
+			path = "Target Support Files/Pods-RedText_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		08CE4AC390356B99099CF69D757EC2DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FC1837A6D98CC86B063CA0D5EA62C41 /* Pods-RedText_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B42B4DE274B3648DD9493D5B1C13978 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C7E485FCA0DABC6B0664BC1897DE697 /* Pods-RedText_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		596B5B5528A2CA6C20FEF4114051884D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				055BF6EB9094FCFC08E154103C30AF72 /* RedText-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		08A4BFFF02E5246E4EF38C5FE1A25D86 /* RedText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AA00D703686C39DF3685473BEB0B09D /* Build configuration list for PBXNativeTarget "RedText" */;
+			buildPhases = (
+				9177D58CB382E4A12E7AE8158D92C154 /* Sources */,
+				983168AEEB02E5885D7A0D1D561BF23F /* Frameworks */,
+				596B5B5528A2CA6C20FEF4114051884D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedText;
+			productName = RedText;
+			productReference = B2D300ABB9D5A846FBAE635E76403220 /* RedText.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3FF17025A10D5D14EC0CE10CD2B600FE /* Pods-RedText_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF68E8C434B3A748A0A5AD680CCFD08 /* Build configuration list for PBXNativeTarget "Pods-RedText_Example" */;
+			buildPhases = (
+				CDEADED280E083F4005F82D88317BD7A /* Sources */,
+				BF919770EFAF38BC991B96644BD486CC /* Frameworks */,
+				0B42B4DE274B3648DD9493D5B1C13978 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0B7C3718CA6D5F7F68A09A009068778 /* PBXTargetDependency */,
+			);
+			name = "Pods-RedText_Example";
+			productName = "Pods-RedText_Example";
+			productReference = DAB020E900A547A559DE39643CE1CF07 /* Pods_RedText_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		462D0F583C8F5C700FD9769785FC4D08 /* Pods-RedText_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040A5CB1C6F5986B05534E366FAC0582 /* Build configuration list for PBXNativeTarget "Pods-RedText_Tests" */;
+			buildPhases = (
+				6784050520CE99F94B88DA3904194109 /* Sources */,
+				261DA978E7002F4E3A4FF581DA32D3D1 /* Frameworks */,
+				08CE4AC390356B99099CF69D757EC2DA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-RedText_Tests";
+			productName = "Pods-RedText_Tests";
+			productReference = CAAEEC5E5884BD4C350C1D9B6848EB80 /* Pods_RedText_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8F96A84C0C622D5BD30BE1619AEAF1CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FF17025A10D5D14EC0CE10CD2B600FE /* Pods-RedText_Example */,
+				462D0F583C8F5C700FD9769785FC4D08 /* Pods-RedText_Tests */,
+				08A4BFFF02E5246E4EF38C5FE1A25D86 /* RedText */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6784050520CE99F94B88DA3904194109 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BBA682CC3C2C1D9008F2461C109D8EB /* Pods-RedText_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9177D58CB382E4A12E7AE8158D92C154 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9489EA95657623252111DDED16ED4382 /* RedText-dummy.m in Sources */,
+				73DA1B967C7FB328471123110A868888 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDEADED280E083F4005F82D88317BD7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715E2817A773B67604DDDD95B1901353 /* Pods-RedText_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0B7C3718CA6D5F7F68A09A009068778 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RedText;
+			target = 08A4BFFF02E5246E4EF38C5FE1A25D86 /* RedText */;
+			targetProxy = DA867E0E0432AC72CBD371D21C6C367B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C5C098AE2E61AAA3CF88BA94BCB1840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5288A8366DE6654DAE87A3B6A2FB9038 /* RedText.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RedText/RedText-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RedText/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RedText/RedText.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RedText;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3E720109AD25718C2BB96F9C03A4CC24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B358FA8D06F7A4B77E85881CFA90D81F /* Pods-RedText_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RedText_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RedText_Tests/Pods-RedText_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RedText_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4886AA4049E7EE8ACC875BDB980E7D24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E4F042B3F193E518CCC13ABD1DD4CDC /* Pods-RedText_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RedText_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RedText_Example/Pods-RedText_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RedText_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		81960A1BA9F57F547C6BC91A16F6A35A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB1696CFDBC4CB461547482426EDA2DF /* Pods-RedText_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RedText_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RedText_Tests/Pods-RedText_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RedText_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B275B7507F6F9CD251AAEA27A1707037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5288A8366DE6654DAE87A3B6A2FB9038 /* RedText.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RedText/RedText-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RedText/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RedText/RedText.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RedText;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F3C3B6BD7994F7D0C1640EBB9E432D2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE320988D02C1CE5A4A4B550ED46B7DF /* Pods-RedText_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RedText_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RedText_Example/Pods-RedText_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RedText_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		040A5CB1C6F5986B05534E366FAC0582 /* Build configuration list for PBXNativeTarget "Pods-RedText_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E720109AD25718C2BB96F9C03A4CC24 /* Debug */,
+				81960A1BA9F57F547C6BC91A16F6A35A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AA00D703686C39DF3685473BEB0B09D /* Build configuration list for PBXNativeTarget "RedText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C5C098AE2E61AAA3CF88BA94BCB1840 /* Debug */,
+				B275B7507F6F9CD251AAEA27A1707037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABF68E8C434B3A748A0A5AD680CCFD08 /* Build configuration list for PBXNativeTarget "Pods-RedText_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4886AA4049E7EE8ACC875BDB980E7D24 /* Debug */,
+				F3C3B6BD7994F7D0C1640EBB9E432D2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

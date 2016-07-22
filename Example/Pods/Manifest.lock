@@ -1,0 +1,16 @@
+PODS:
+  - RedText (0.1.0)
+
+DEPENDENCIES:
+  - RedText (from `../`)
+
+EXTERNAL SOURCES:
+  RedText:
+    :path: ../
+
+SPEC CHECKSUMS:
+  RedText: 0a5108eb5454d26cdb660e03b222bdc1f7c4f7ce
+
+PODFILE CHECKSUM: f2c3848b6bf67ab49e6a8693a9efec4eb5056cbf
+
+COCOAPODS: 1.0.1

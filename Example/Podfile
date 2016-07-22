@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RedText_Example' do
+  pod 'RedText', :path => '../'
+
+  target 'RedText_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
